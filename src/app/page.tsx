@@ -93,7 +93,7 @@ export default function Home() {
           )}
           {screen === "Login" && (
             <>
-              <div className="z-50 w-full max-w-md mx-auto p-6 bg-white dark:bg-neutral-900 shadow-lg rounded-xl">
+              <div className="z-50 w-full max-w-md mx-auto p-6 dark:bg-neutral-900 shadow-2xl rounded-xl">
                 <h3 className="text-2xl font-bold text-center text-gray-900 dark:text-white">
                   Login
                 </h3>
@@ -106,7 +106,7 @@ export default function Home() {
                       type="email"
                       id="email"
                       placeholder="Enter your email"
-                      className="w-full p-4 text-lg border rounded-sm dark:bg-neutral-800 dark:text-white"
+                      className="w-full p-4 text-lg borde rounded-sm dark:bg-neutral-800 dark:text-white"
                       defaultValue=""
                       {...register("email")}
                     />
@@ -153,7 +153,7 @@ export default function Home() {
           )}
           {screen === "Registration" && (
             <>
-              <div className="z-50 w-full max-w-md mx-auto p-6 bg-white dark:bg-neutral-900 shadow-lg rounded-xl">
+              <div className="z-50 w-full max-w-md mx-auto p-6 bg-white dark:bg-neutral-900 shadow-2xl rounded-xl">
                 <h3 className="text-2xl font-bold text-center text-gray-900 dark:text-white">
                   Registration
                 </h3>

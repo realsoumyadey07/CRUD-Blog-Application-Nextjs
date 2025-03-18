@@ -1,10 +1,9 @@
 import { ModeToggle } from "@/components/theme-toggle";
-import { Card } from "@/components/ui/card";
 import Link from "next/link";
 
 export default function DesktopNav() {
   return (
-    <Card className="hidden lg:flex lg:flex-row lg:justify-between lg:items-center lg:h-16 lg:w-full lg:p-4">
+    <div className="hidden lg:flex lg:flex-row lg:justify-between lg:items-center lg:h-16 lg:w-full lg:p-4 shadow-xl">
       <div>
         <p>Nextjs Bloging App</p>
       </div>
@@ -17,6 +16,6 @@ export default function DesktopNav() {
         </div>
         <ModeToggle/>
       </nav>
-    </Card>
+    </div>
   );
 }
